@@ -1,0 +1,25 @@
+{
+  "name": "friendly-secrets",
+  "version": "1.0.0",
+  "description": "This is a fun web app that lets people share anonymous texts with friends.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Mostafa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.4",
+    "mongoose-findorcreate": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "sentiment": "^5.0.2"
+  }
+}
