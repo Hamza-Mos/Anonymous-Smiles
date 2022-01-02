@@ -225,6 +225,7 @@ app.post("/login", (req, res) =>
           res.redirect("/secrets");
         });
       }
+    }
   
 });
 
